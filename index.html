@@ -17,71 +17,78 @@
 <body>
   <header>
     <div class="container">
-      <nav>
-        <a href="./index.html"></a>
-        <img src="./images/logo.svg" alt="Логотип косметологічної клініки" />
-        <ul>
-          <li><a class="link" href="#beauty-zone-section">Про нас</a></li>
-          <li><a class="link" href="#why-we-section">Чому ми</a></li>
-          <li>
-            <a class="link" href="#our-procedures-section">Наші процедури</a>
-          </li>
-          <li><a class="link" href="#contacts-section">Контакти</a></li>
-        </ul>
-        <!-- Telephone icon -->
-        <a href="#" target="_blank">
-          <img src="./images/telephone.svg" alt="Іконка телефону" />
-        </a>
-        <!-- Facebook icon -->
-        <a class="facebook-icon-header" href="#" target="_blank">
-          <img src="./images/facebook.svg" alt="Іконка Facebook" />
-        </a>
-        <!-- Instagram icon -->
-        <a href="#" target="_blank">
-          <img src="./images/instagram.svg" alt="Іконка Instagram" />
-        </a>
-      </nav>
+      <div class="header-container">
+        <nav class="header-nav">
+          <a href="./index.html"></a>
+          <img src="./images/logo.svg" alt="Логотип косметологічної клініки" />
+          <ul class="header-menu">
+            <li><a class="link" href="#beauty-zone-section">Про нас</a></li>
+            <li><a class="link" href="#why-we-section">Чому ми</a></li>
+            <li>
+              <a class="link" href="#our-procedures-section">Наші процедури</a>
+            </li>
+            <li><a class="link" href="#contacts-section">Контакти</a></li>
+          </ul>
+          <ul class="header-media">
+            <li><!-- Telephone icon -->
+              <a href="#" target="_blank">
+                <img src="./images/telephone.svg" alt="Іконка телефону" />
+              </a>
+            </li>
+            <li><!-- Facebook icon -->
+              <a class="facebook-icon-header" href="#" target="_blank">
+                <img src="./images/facebook.svg" alt="Іконка Facebook" />
+              </a>
+            </li>
+            <li><!-- Instagram icon -->
+              <a href="#" target="_blank">
+                <img src="./images/instagram.svg" alt="Іконка Instagram" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <img src="./images/operation.jpg" alt="Операція">
     </div>
     <!-- Beauty zone -->
-    <div class="header-container">
-      <div class="container">
-        <section id="beauty-zone-section">
-          <p class="hero-text">Косметологічна клініка</p>
-          <h1 class="hero-title">Beauty Zone</h1>
-          <!-- button замовити дзвінок -->
-          <button class="button" type="button">Замовити дзвінок</button>
-          <p class="hero-text-2">
-            Запишись та отримай безкоштовну консультацію нашого косметолога
-          </p>
-      </div>
-      </section>
+    <div class="container">
+      <section id="beauty-zone-section">
+        <p class="hero-text">Косметологічна клініка</p>
+        <h1 class="hero-title">Beauty Zone</h1>
+        <!-- button замовити дзвінок -->
+        <button class="button" type="button">Замовити дзвінок</button>
+        <p class="hero-text-2">
+          Запишись та отримай безкоштовну<br> консультацію нашого косметолога
+        </p>
+    </div>
+    </section>
     </div>
   </header>
   <main>
     <!-- Перевтілюйтесь в beauty zone!  -->
-    <div class="transform-container">
-      <section>
-        <div class="container">
-          <h2 class="transform-section">
-            Перевтілюйтесь в <span class="accent">Beauty Zone!</span>
-          </h2>
-          <p class="transform-text-1">
-            Наша косметологічна клініка пропонує вам професійні послуги з догляду
-            за шкірою обличчя та тіла.
-          </p>
-          <p class="transform-text-2">
-            B <span class="transform-accent">Beauty Zone</span> ми гарантуємо
-            найвищі стандарти якості та приємний сервіс. Наші косметологічні
-            процедури та препарати допоможуть вам підтримувати свою красу та
-            молодість. З нами краса назавжди!
-          </p>
+    <section>
+      <div class="container">
+        <div class="transform-container">
+          <div class="transform-content">
+            <h2 class="transform-section">
+              Перевтілюйтесь в <span class="accent"><br> Beauty Zone!</span>
+            </h2>
+            <p class="transform-text-1">
+              Наша косметологічна клініка пропонує вам професійні послуги<br> з догляду
+              за шкірою обличчя та тіла.
+            </p>
+            <p class="transform-text-2">
+              B <span class="transform-accent">Beauty Zone</span> ми гарантуємо
+              найвищі стандарти якості<br> та приємний сервіс. Наші косметологічні
+              процедури та препарати<br> допоможуть вам підтримувати свою красу та
+              молодість.<br> З нами краса назавжди!
+            </p>
+          </div>
           <img src="./images/before.jpg" alt="До процедури">
           <img src="./images/after.jpg" alt="Після процедури">
         </div>
-      </section>
-    </div>
-    </div>
+      </div>
+    </section>
     <!-- Чому люди обирають нас -->
     <div class="why-we-container">
       <section class="section" id="why-we-section">
@@ -89,21 +96,32 @@
           <h2 class="why-we">
             Чому люди <span class="accent">обирають нас</span>
           </h2>
-          <img src="./images/game-icons_materials-science.svg" alt="Стаж" />
-          <p class="why-we-text">
-            Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
-            років
-          </p>
-          <img src="./images/medicinecosmeticsbottletreatment_109776 1.svg" alt="Медичні засоби" />
-          <p class="why-we-text">
-            Використовуємо тільки професійне обладнання та косметику, перевірену
-            часом
-          </p>
-          <img src="./images/ph_crown-light.svg" alt="Корона" />
-          <p class="why-we-text">
-            Наша мета - підкреслити переваги та приховати недоліки, а не
-            переробити
-          </p>
+          <ul class="why-we-list">
+            <li>
+              <article class="why-we-card"><img src="./images/game-icons_materials-science.svg" alt="Стаж" />
+                <p class="why-we-text">
+                  Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
+                  років
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="why-we-card"><img src="./images/medicinecosmeticsbottletreatment_109776 1.svg" alt="Медичні засоби" />
+                <p class="why-we-text">
+                  Використовуємо тільки професійне обладнання та косметику, перевірену
+                  часом
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="why-we-card"><img src="./images/ph_crown-light.svg" alt="Корона" />
+                <p class="why-we-text">
+                  Наша мета - підкреслити переваги та приховати недоліки, а не
+                  переробити
+                </p>
+              </article>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
