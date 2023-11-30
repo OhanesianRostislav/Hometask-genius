@@ -98,6 +98,7 @@ section {
   flex-grow: 1;
   align-items: center;
   gap: 40px;
+  height: 106px;
 }
 
 .header-menu {
@@ -132,6 +133,13 @@ section {
   color: var(--color-secondary-gray);
   margin-bottom: 0;
   padding: 14px;
+}
+
+.hero-container {
+  background-image: url(../images/operation.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Button */
@@ -190,7 +198,6 @@ section {
   max-width: 710px;
 }
 
-
 /* Why we section */
 .why-we {
   color: var(--color-primary-dark-blue);
@@ -236,8 +243,22 @@ section {
 }
 
 .our-procedures-text {
-  color: var(--color-secodary-white);
+  /* color: var(--color-secodary-white); */
   font-size: 22px;
+}
+
+.our-procedures-list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.our-procedures-item {
+  border: 1px solid lightgrey;
+  border-radius: 120px 4px;
+  height: 345px;
+  width: 460px;
+  background-image: linear-gradient(180deg, rgba(1, 28, 68, 0.00) 48.53%, rgba(1, 28, 68, 0.73) 84.61%, var(--color-primary-dark-blue) 101.39%);
 }
 
 /* Contacts */
@@ -256,6 +277,10 @@ section {
 /* Footer */
 .footer {
   background-color: var(--color-primary-dark-blue);
+  background-image: url(../images/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .save-zone {
