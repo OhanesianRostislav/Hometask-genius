@@ -272,33 +272,25 @@ section {
 }
 
 /* Carousel */
-
 .carousel-button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid var(--color-primary-dark-blue);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-arrow {
-  fill: var(--color-primary-dark-blue);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: transparent;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+    fill: var(--color-primary-dark-blue);
 }
 
-.carousel-button:hover{
+.carousel-button:hover {
   background-color: var(--color-primary-blue);
+  fill: var(--color-secodary-white);
 }
+
 
 /* Contacts */
 .contacts {
