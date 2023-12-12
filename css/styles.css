@@ -271,6 +271,12 @@ section {
   height: 456px;
 }
 
+.our-procedures-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
 /* Carousel */
 .carousel-button {
   width: 44px;
@@ -283,7 +289,8 @@ section {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-    fill: var(--color-primary-dark-blue);
+  fill: var(--color-primary-dark-blue);
+  flex-shrink: 0;
 }
 
 .carousel-button:hover {
