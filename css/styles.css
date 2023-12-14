@@ -25,7 +25,10 @@
 }
 
 /* Base */
-* {
+*,
+*,
+::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -65,6 +68,10 @@ section {
   margin: 0 auto;
   width: 100%;
   padding: 0 32px;
+}
+
+a {
+  display: inline-block;
 }
 
 /* Links */
@@ -224,6 +231,7 @@ section {
 .why-we-card {
   border: 1px solid lightgrey;
   border-radius: 32px;
+  align-items: center;
 }
 
 .why-we-list {
@@ -306,10 +314,36 @@ section {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 48px;
+  text-align: center;
 }
 
+.contacts-text {
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* color: var(--color-secodary-white); */
+}
+
+.contacts-text .accent,
 .contacts .accent {
   color: var(--color-primary-blue);
+}
+
+.contacts-container {
+  display: flex;
+  gap: 32px;
+}
+
+.contacts-map {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 32px
+}
+
+.contacts-section {
+  padding-bottom: 96px;
 }
 
 /* Footer */
@@ -319,6 +353,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 32px 0;
 }
 
 .save-zone {
@@ -339,4 +374,27 @@ section {
 
 .media-footer {
   fill: var(--color-secodary-white);
+}
+
+.footer-container {
+  display: flex;
+  gap: 20px;
+
+}
+
+.footer-address,
+.footer-nav {
+  flex-basis: 50%;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-menu,
+.footer-logo {
+  flex-grow: 1;
+}
+
+.address-list,
+.address-info {
+  flex-grow: 1;
 }

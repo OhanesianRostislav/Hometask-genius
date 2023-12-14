@@ -175,54 +175,44 @@
     </div>
     </section>
     <!-- Як нас знайти -->
-    <div class="contacts-container">
-      <section class="section" id="contacts-section">
-        <div class="container">
-          <h2 class="contacts">Як нас <span class="accent">знайти</span></h2>
-          <iframe
+    <section class="contacts-section" id="contacts-section">
+      <div class="container">
+        <h2 class="contacts">Як нас <span class="accent">знайти</span></h2>
+        <div class="contacts-container">
+          <iframe class="contacts-map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1697667147003!5m2!1sru!2sua"
             width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="contacts-item">
+            <p class="contacts-text">Запишіться <span class="accent">безкоштовно</span> та отримайте подарунок</p>
+          </div>
+          <!-- form -->
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container">
-      <nav>
-        <a href="#">
-          <img src="./images/logo.svg" alt="Логотип" />
-        </a>
-        <ul>
-          <li>
-            <a class="footer-link" href="#beauty-zone-section">Про нас</a>
-          </li>
-          <li><a class="footer-link" href="#why-we-section">Чому ми</a></li>
-          <li>
-            <a class="footer-link" href="#our-procedures-section">Наші процедури</a>
-          </li>
-          <li><a class="footer-link" href="#contacts-section">Контакти</a></li>
-        </ul>
-      </nav>
-      <address>
-        <!-- Telephone icon -->
-        <a href="#" target="_blank">
-          <svg class="media-footer" width="42" height="42">
-            <use href="./images/icons.svg#icon-telephone"></use>
-          </svg>
-        </a>
-        <!-- Facebook icon -->
-        <a class="footer-link" href="#" target="_blank">
-          <svg class="media-footer" width="42" height="42">
-            <use href="./images/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-        <!-- Instagram icon -->
-        <a class="footer-link" href="#" target="_blank">
-          <svg class="media-footer" width="42" height="42">
-            <use href="./images/icons.svg#icon-instagram"></use>
-          </svg>
-          <ul>
+      <div class="footer-container">
+        <nav class="footer-nav">
+          <div class="footer-logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="Логотип" />
+            </a>
+          </div>
+          <ul class="footer-menu">
+            <li>
+              <a class="footer-link" href="#beauty-zone-section">Про нас</a>
+            </li>
+            <li><a class="footer-link" href="#why-we-section">Чому ми</a></li>
+            <li>
+              <a class="footer-link" href="#our-procedures-section">Наші процедури</a>
+            </li>
+            <li><a class="footer-link" href="#contacts-section">Контакти</a></li>
+          </ul>
+        </nav>
+        <address class="footer-address">
+          <ul class="address-list">
             <li>
               <a class="footer-link" href="tel:+380960000007">+380960000007</a>
             </li>
@@ -233,13 +223,40 @@
               <a class="footer-link" href="https://maps.app.goo.gl/rXV9Pre8fYuZKDydA" target="_blank">
                 Україна, м. Київ, вул. Тараса Шевченка 5
               </a>
-        </a>
-        </li>
-        </ul>
-        <a class="footer-link" href="#" target="_blank">Політика конфіденційності</a>
-        <p class="save-zone">&copy; 2023 Дані захищені</p>
-        <!-- <img src="./images/instruments.png" alt="Інструменти" /> -->
-      </address>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <!-- Telephone icon -->
+            <li><a href="#" target="_blank">
+                <svg class="media-footer" width="42" height="42">
+                  <use href="./images/icons.svg#icon-telephone"></use>
+                </svg>
+              </a>
+            </li>
+            <li><!-- Facebook icon -->
+              <a class="footer-link" href="#" target="_blank">
+                <svg class="media-footer" width="42" height="42">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li><!-- Instagram icon -->
+              <a class="footer-link" href="#" target="_blank">
+                <svg class="media-footer" width="42" height="42">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+            </li>
+          </ul>
+          <ul class="address-info">
+            <li><a class="footer-link" href="#" target="_blank">Політика конфіденційності</a>
+            </li>
+            <li>
+              <p class="save-zone">&copy; 2023 Дані захищені</p>
+            </li>
+          </ul>
+        </address>
+      </div>
     </div>
   </footer>
 </body>
