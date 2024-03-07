@@ -45,9 +45,6 @@ ul {
   padding: 0;
 }
 
-address {
-  font-style: normal;
-}
 
 h1,
 h2,
@@ -125,6 +122,14 @@ a {
   fill: var(--color-primary-dark-blue);
 }
 
+
+
+/* .header-bcg{
+  position: absolute;
+
+} */
+
+
 /* Hero section */
 .hero-text {
   color: var(--color-primary-dark-blue);
@@ -147,11 +152,12 @@ a {
 }
 
 .hero-container {
-  background-image: url(../images/operation.jpg);
+  background-image: url('../images/hero-section.jpeg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
 }
+
 
 /* Button */
 .button {
@@ -203,10 +209,37 @@ a {
   display: flex;
   gap: 25px;
   justify-content: space-between;
+  margin-bottom: 175px;
 }
 
 .transform-content {
   max-width: 710px;
+}
+
+.transform-procedures-1 {
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: none;
+  position: absolute;
+  width: 335px;
+  height: 328px;
+  left: 837px;
+  right: -845px;
+  top: 656px;
+  bottom: -657px;
+}
+
+.transform-procedures-2 {
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: none;
+  position: absolute;
+  width: 327px;
+  height: 328px;
+  left: 1013px;
+  right: -841px;
+  top: 1024px;
+  bottom: -657px;
 }
 
 /* Why we section */
@@ -229,18 +262,32 @@ a {
 }
 
 .why-we-card {
-  border: 1px solid lightgrey;
   border-radius: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 316px;
+  height: 181px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 56px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .why-we-list {
   display: flex;
-  gap: 55px;
+  gap: 56px;
 }
 
 .why-we-icon {
   fill: var(--color-primary-blue);
+}
+
+.why-we-icon {
+  display: flex;
 }
 
 
@@ -379,7 +426,6 @@ a {
 .footer-container {
   display: flex;
   gap: 20px;
-
 }
 
 .footer-address,
