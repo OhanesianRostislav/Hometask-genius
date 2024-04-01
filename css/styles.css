@@ -123,13 +123,6 @@ a {
 }
 
 
-
-/* .header-bcg{
-  position: absolute;
-
-} */
-
-
 /* Hero section */
 .hero-text {
   color: var(--color-primary-dark-blue);
@@ -168,6 +161,8 @@ a {
   border: solid var(--color-primary-blue);
   font-weight: 600;
   padding: 16px 32px;
+  font-family: Roboto;
+  font-weight: 700;
 }
 
 .button:hover {
